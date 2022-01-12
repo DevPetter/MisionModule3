@@ -54,7 +54,7 @@ export const About = () => {
               <blockquote className="blockquote mb-0">
                 <p>Link Github</p>
                 <footer className="blockquote-footer">
-                <a href="https://github.com/pedrojqp">/pedrojqp</a>          
+                <a href="https://github.com/pedrojqp/MisionModule3">/pedrojqp</a>          
                 </footer>
               </blockquote>
             </Card.Body>
