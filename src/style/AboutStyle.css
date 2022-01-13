@@ -1,0 +1,14 @@
+img{
+    border-radius: 30px;
+    margin:auto;
+}
+
+.title{
+    text-align: center;
+    background: #9cb398;
+    box-shadow: 10px 25px 34px -2px rgba(0,0,0,0.51);
+    color: white;
+    width: 98%;
+    height: 60px;
+    margin: auto;
+}

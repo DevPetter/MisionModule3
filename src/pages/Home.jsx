@@ -15,6 +15,7 @@ export const Home = () => {
     return (
       <>
           <h1>PRODUCTS</h1>
+          
           <hr></hr>
           {users.map(({id, title, description, image})=>(
               <HomeCard key={id}  title={title} description={description} image={image}/>
