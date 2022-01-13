@@ -1,13 +1,14 @@
 import React from "react"
 import { Card, CardGroup} from "react-bootstrap"
+import "../style/CardStyle.css"
 
 // eslint-disable-next-line react/prop-types
 export const HomeCard = ({ title, description, image }) => {
   return (
     <>
       <CardGroup>
-        <Card>
-          <Card.Img variant="bottom" src={`${image}`} />
+        <Card className="cardProduct">
+          <Card.Img className="image" variant="bottom" src={`${image}`} />
           <Card.Body>
             <Card.Title>{title}</Card.Title>
             <Card.Text>
@@ -15,37 +16,10 @@ export const HomeCard = ({ title, description, image }) => {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted"> 3 mins ago</small>
+            <small className="text-muted"> Espacio para cronometro</small>
           </Card.Footer>
-        </Card>
-
-        <Card>
-          <Card.Img variant="bottom" src={`${image}`} />
-          <Card.Body>
-            <Card.Title>{title}</Card.Title>
-            <Card.Text>
-            {description}
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">3 mins ago</small>
-          </Card.Footer>
-        </Card>
-
-       
-        <Card>
-          <Card.Img variant="bottom" src={`${image}`} />
-          <Card.Body>
-            <Card.Title>{title}</Card.Title>
-            <Card.Text>
-            {description}
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted"> 3 mins ago</small>
-          </Card.Footer>
-        </Card>
-
+        </Card>   
+    
       </CardGroup>
     </>
   )

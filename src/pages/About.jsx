@@ -1,7 +1,7 @@
 import React from "react"
 import { Card } from "react-bootstrap"
 import images from "../assets/images.jsx"
-import "../style/AboutStyle.css"
+import "../style/CardStyle.css"
 
 export const About = () => {
   return (
@@ -11,13 +11,12 @@ export const About = () => {
         <h1 className="title">About Petter.</h1>
       </section>
 
-         <Card>
-          <Card.Header>Información General</Card.Header>
+         <Card className="body">
+          <Card.Header className="informationGeneral">Información General</Card.Header>
           <img
             src={images.pedro}
-            width={350}
-            height={450}
             alt="Foto presentación personal"
+            className="image"
           />
           <Card.Body>
             <blockquote className="blockquote mb-0">

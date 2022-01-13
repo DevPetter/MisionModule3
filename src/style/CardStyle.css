@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.body{
+  background-color: rgb(202, 202, 156);;
+}
+
+img {
+  border-radius: 30px;
+  margin: auto;
+  width: 350px;
+  height: 450px;
+}
+.header {
+  width: 100%;
+  height: 97px;
+  left: 53px;
+  top: 78px;
+  background: #e57b1d;
+  border-radius: 5px;
+  display: flex;
+}
+
+.title {
+  position: absolute;
+  width: 100%;
+  height: 49px;
+  left: 79px;
+  top: 80px;
+  font-family: "Luxurious Roman", cursive;
+  font-style: normal;
+  font-size: 56px;
+  align-items: center;
+  text-align: center;
+  color: #fbd461;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.informationGeneral {
+  /* position: absolute; */
+  width: 30%;
+  height: 42px;
+  left: 61px;
+  top: 219px;
+  font-family: "Luxurious Roman", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.image{
+ border-bottom: #fbd461 solid 10px;
+ width: 350px;
+ margin: auto;
+ align-items: center;
+ box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cardProduct{
+  background: rgb(202, 202, 156);
+  width: 200px;
+}
